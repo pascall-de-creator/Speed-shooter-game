@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Speed Shooter</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+      </head>
+      <body>
+        <p id="scoreText">Score : 000</p>
+        <div id="target" onclick="addScore()"></div>
+        <div id="crosshair"></div>
+        <div id="endScreen">
+          <h1>Game Over</h1>
+          <p id="endScore">Score : 000</p>
+          <button onclick="restart()">Restart</button>
+        </div>
+      </body>
+      <script src="script.js"></script>
+</html>

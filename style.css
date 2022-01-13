@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #333;
+  cursor: none;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+#endScreen{
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000dd;
+  color: white;
+}
+button{
+  width: 120px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  margin-top: 20px;
+}
+#scoreText{
+  color: white;
+  font-weight: 600;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 10px;
+}
+#endScore{
+  color: white;
+  font-weight: 600;
+}
+#target{
+  display: block;
+  background-image: url("https://www.freeiconspng.com/uploads/target-icon-4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+}
+#crosshair{
+  background-image: url("https://lh3.googleusercontent.com/fife/AAWUweXijQ-IdBGQuo2tNOqcJOvyn4euTJ6F5Su3zJlZt9Sionc8Y9-FvGy2BMmy8gfbIZ-4i9gUFaJATgcfhUfZy-9JVlPjz9tM4vfalBtwDDVm_5ZSs1nDxiHNEzyPDwvvuVs8JZWCwejZ2zB9mqkwDjPoF4tQPay-c0LKnMpliz_skLkIdc73elSFMrLYGojTAtgiFN9N96ZVaT9kAsotpPRq2q9XtATgev1SAievZ0B4b7DpMYYuFgzQN238b-GKjZldRTo-yBWLViCWfIrCJEXrJgloXZeCK3iD7GJIFCAewLbF1YWqB2pZEyskpvpIl5iQ8WpkILtDMdn-UFxOHDF0xTBkr_3P43le1b4dSltcu85EiW9CHtritGqhPRpJ21tLIZczRcUe6UwUz5EPNbjNpt06CMcpTFzNwKqJokgpZ3akhIvvdWReHtrsPA10n1nxFTtrdCALANWLvJhwnvW-Db5deuobPZdeXv7x8fPcRrkza0XTlhheTiJTt9FME46PyoFuoUalj7K7Y0gYegMJ6CrEBZkYmkMUKZnCXIaQa2NGrPylHgixk6iqs82z0ZPtS_sCqb732SoTf-z0WlVUAKjCbNtouBqCaYDBBWsD84DfdZC8h4uYkXjhWAd6dB8-dUlsrMN7JdLTsg68xN9cRuO9nngasqhFh02ActqV5hvAu9jLBCWXZ1v5WS3g4-Rd5sPxnvs4Byf3iem_eRXJCs3lZtQb0Q=w802-h641-ft");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+}
