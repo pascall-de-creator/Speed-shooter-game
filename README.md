@@ -2,7 +2,9 @@
 
 [![powered-by-PDe-C.png](https://i.postimg.cc/TwtnTtkG/powered-by-PDe-C.png)](https://postimg.cc/zbRyjFZP)
 
-[![ssgpv.png](https://i.postimg.cc/13kGjBBX/ssgpv.png)](https://postimg.cc/75NJCgpr)
+[![ssgpv.png](https://i.postimg.cc/13kGjBBX/ssgpv.png)](https://pascall-speed-shooter-game.netlify.app)
+
+Website @[netlify speedshotter](https://pascall-speed-shooter-game.netlify.app)
 
 ### Web Shooter Game.
 
